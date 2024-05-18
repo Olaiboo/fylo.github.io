@@ -1,0 +1,250 @@
+.attribution, * {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%) ;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.d1 , .hero{
+    width: 95%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.logo{
+    width: 100px;
+    object-fit: contain;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    background: hsl(230, 20%, 88%);
+}
+.box1{
+    width: 50%;
+    margin-top: 9rem;
+}
+.box2{
+    width: 50%;
+}
+.sem{
+    width: 100%;
+}
+.par{
+    background: white;
+}
+.btn button{
+   background: white; 
+   border: none;
+   color: black;
+}
+.btn button:hover{
+    background: rgb(79, 79, 107);
+    color: white
+}
+.box1 h3{
+   width: 100%; 
+   font-size: 40px;
+   font-weight: 900;
+}
+.box1 p{
+    width: 100%; 
+   font-size: 20px;
+   font-weight: 500;
+}
+.brn button{
+    background: hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+    left: 50rem;
+    font-size: 12px;
+    justify-content: space-between;
+    width: 40%;
+    height: 30px;
+}
+.brn button:hover {
+    background: palevioletred;
+    color: white;
+}
+
+
+.quin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white
+}
+.thir{
+    width: 70%;
+    margin-top: 2rem;
+}
+.you{
+    width: 30%;
+}
+.quin, .you{
+        width: 95%;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+.thir h3{
+    width: 100%; 
+    font-size: 40px;
+    font-weight: 800;
+ }
+ .thir p{
+     width: 100%; 
+    font-size: 15px;
+    font-weight: 500;
+ }
+ .sem2{
+    width: 80%;
+ }
+ .quote{
+  border-radius: 5px;
+  width: 60%;
+  box-shadow: 5px 5px 5px 5px #888888;
+ }
+.last{
+    background:  hsl(238, 22%, 44%);
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sew, .sew2{
+    width: 50%;
+}
+.sew h2{
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    width: 100%;
+}
+.sew p{
+    width: 100%; 
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.sew2{
+    display: table-column;
+    justify-content: space-between;
+}
+.sew2 button{
+background: hsl(224, 93%, 58%);
+color: whitesmoke;
+border: none;
+width: 30%;
+font-size: 15px;
+font-weight: 500;
+justify-content: space-between;
+}
+.place{
+    width: 100%;
+    height: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.footer{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    height: 30vh;
+    align-items: center;
+    display: flex;
+}
+.footer-container{
+    background: hsl(243, 87%, 12%);
+    color: white;
+}
+.footerNav{
+    width: 100%;
+    align-items: center;
+}
+.footerNav ul{
+display: flex;
+justify-content: center;
+}
+.footerNav ul li a{
+color: white;
+margin: 20px;
+text-decoration: none;
+font-size: 1.5rem;
+opacity: 0.7;
+transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+color: white;
+opacity: 1;
+}
+.loo{
+    width: 30%;
+}
+.others, .icons{
+    width: 50%;
+    display: flex;
+    margin-left: 80rem;
+    font-size: 30px;
+    color: white;
+}
+.others, .icons { 
+    color: white
+} 
+i { 
+    color: white;
+    width: 50%;
+} 
+.bx{ 
+    font-size: 50px; 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 600px){
+.hero, .d1, .quin, .you{
+    flex-direction: column;
+}
+.box1{
+    width: 100%;
+    margin-top: 9rem;
+}
+.box2{
+    width: 100%;
+}
+.thir{
+    width: 100%;
+    margin-top: 2rem;
+}
+.you{
+    width: 100%;
+}
+.head{
+    text-align: center;
+}
+ }
